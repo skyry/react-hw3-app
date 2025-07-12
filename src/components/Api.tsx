@@ -35,7 +35,7 @@ const Api = () => {
 
   return (
     <div className='col-md-6 mx-auto mt-5 p-4 border rounded bg-light'>
-      <h2>useEffect</h2>
+      <h2 className="mb-4 text-center">useEffect</h2>
       {loading && <p>Loading...</p>}
       {error && <p style={{ color: "red" }}>Error: {error}</p>}
       {!loading && !error && (

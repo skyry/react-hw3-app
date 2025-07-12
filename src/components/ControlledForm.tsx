@@ -18,7 +18,7 @@ const ControlledForm: React.FC = () => {
 
   return (
     <form className='col-md-6 mx-auto mt-5 p-4 border rounded bg-light' onSubmit={handleSubmit}>
-      <h2>Controlled Form</h2>
+      <h2 className="mb-4 text-center">Controlled Form</h2>
       <div className="mb-3">
         <label htmlFor="text" className="form-label">Text</label>
         <input
